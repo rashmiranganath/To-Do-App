@@ -1,0 +1,85 @@
+
+.subDiv {
+  position: fixed;
+  top: 13%;
+  left: 35%;
+  background-color:lavender;
+  border-radius: 20px;
+  width: 600px;
+  height: 715px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 5px 10px #888888;
+
+}
+.toDoHeading h1 {
+  text-align: center;
+  font-size: 41px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+.toDoInputBox {
+  margin-left: 60px;
+  display: flex;
+  margin-top: 39px;
+}
+.toDoInputBox input {
+  border: none;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  height: 60px;
+  width: 382px;
+  font-style: italic;
+  font-family: fantasy;
+  padding-left: 20px;
+}
+.toDoInputBox button {
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  font-style: italic;
+  background-color: green;
+  height: 60px;
+  width: 66px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.toDoList ul {
+  margin-top: 30px;
+  list-style-type: none;
+  margin-left: -12px;
+  border: 2px black;
+  font-size: 24px;
+  font-style: italic;
+}
+.toDoList ul li {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  width: 380px;
+  padding: 5px;
+  height: 35px;
+  border: 1px solid #bfbfbf;
+  margin-left: 0px;
+}
+.toDoList ul li input {
+  margin-left: 30px;
+}
+.toDo {
+  display: flex;
+}
+.toDoChecked input {
+  height: 14px;
+  zoom: 3.5;
+}
+
+.fa-trash-o {
+  margin-top: 5px;
+  font-size: 43px;
+  width: 17%;
+}
+.fa-trash-o:before {
+  content: "\f014";
+  margin-left: -10px;
+  font-size: 50px;
+}
